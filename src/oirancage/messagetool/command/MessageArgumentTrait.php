@@ -16,7 +16,8 @@ trait MessageArgumentTrait
     }
 
     public function getMessageFromArgument(array $args) :string{
-        return $args["message"] ?? "this is a test argument.";
+        $message =  $args["message"] ?? "this is a test argument.";
+        return str_replace('\\n', '\n', $message);
     }
 
     abstract public function registerArgument(int $int, BaseArgument $param): void;
