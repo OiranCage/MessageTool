@@ -1,0 +1,7 @@
+name: MessageTool
+main: oirancage\messagetool\Main
+version: 1.0.0
+api: 4.0.0
+author: OiranCage
+authors:
+  - famima65536
