@@ -1,0 +1,12 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/OiranCage/MessageTool
+build-by-default: true
+branches:
+- master
+projects:
+  MessageTool:
+    path: ""
+    libs:
+      - src: CortexPE/Commando/Commando
+        version: 3.0.0
+
+...
