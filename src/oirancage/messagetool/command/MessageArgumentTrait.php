@@ -11,7 +11,7 @@ trait MessageArgumentTrait
     /**
      * @throws ArgumentOrderException
      */
-    protected function prepare(){
+    protected function prepare(): void{
         $this->registerArgument(0, new TextArgument("message", true));
     }
 
